@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "chekyshka",
+  "version": "${version}",
+  "name": "Chekyshka",
+  "description": "A chaotic Minecraft mod about a very questionable bottle.",
+  "authors": [
+    "RT_DARK"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/chekyshka/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.dark.chekyshka.Chekyshka"
+    ],
+    "client": [
+      "ru.dark.chekyshka.client.ChekyshkaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
